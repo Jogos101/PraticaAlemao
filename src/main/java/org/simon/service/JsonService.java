@@ -14,7 +14,7 @@ public class JsonService {
         try{
             Object obj = parser.parse(new FileReader(path));
             JSONObject jsonObject = (JSONObject) obj;
-            JSONArray numeros = (JSONArray) jsonObject.get("Numeros");
+            JSONArray numeros = (JSONArray) jsonObject.get("words");
             return (Iterator<JSONObject>) numeros.iterator();
         }catch (Exception e) {
             e.printStackTrace();

@@ -1,14 +1,14 @@
 package org.simon;
 
-import org.simon.entity.German;
-import org.simon.service.GermanService;
+import org.simon.entity.Language;
+import org.simon.service.german.GermanPortugueseService;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        GermanService servico = new GermanService();
+        GermanPortugueseService servico = new GermanPortugueseService();
         servico.addNumbers();
 
         System.out.println("Seja bem vindo ao quiz de alemão.");
@@ -20,12 +20,12 @@ public class Main {
         String resposta = "/";
 
         while(true){
-            German g = servico.getRandomGerman();
-            System.out.println(g.alemao);
+            Language g = servico.getRandomWord();
+            System.out.println(g.getOriginal());
             System.out.print("Resposta: ");
             resposta = scanner.nextLine();
 
-            if(resposta.equals("0") || resposta.equals("")){
+            if(resposta.equals("0") || resposta.isEmpty()){
                 break;
             }else if(servico.testeResposta(resposta, g)){
                 tentativas++;
@@ -36,7 +36,7 @@ public class Main {
                 tentativas++;
                 System.out.println("Errou...");
                 System.out.printf("Você respondeu: %s\n", resposta);
-                System.out.printf("Resposta certa: %s\n", g.portugues);
+                System.out.printf("Resposta certa: %s\n", g.getTrasnlation());
                 System.out.printf("%s/%s \n\n", acertos, tentativas);
             }
         }

@@ -1,20 +1,22 @@
 package org.simon.repository;
 
 import org.simon.entity.German;
+import org.simon.entity.Language;
+
 import java.util.ArrayList;
 
 public class GermanRepository {
-    private final ArrayList<German> gRepository = new ArrayList<German>();
+    private final ArrayList<Language> gRepository = new ArrayList<Language>();
 
     public void addGerman(German g){
         this.gRepository.add(g);
     }
 
-    public ArrayList<German> getAll(){
+    public ArrayList<Language> getAll(){
         return gRepository;
     }
 
-    public German getGerman(int index){
+    public Language getGerman(int index){
         return gRepository.get(index);
     }
 

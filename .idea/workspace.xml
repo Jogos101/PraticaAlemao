@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e0e6350-1ed5-48fb-b87f-de95f92b8296" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/simon/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/simon/entity/German.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/simon/repository/GermanRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/simon/service/GermanService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/simon/service/JsonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/library/numbers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/simon/entity/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/simon/service/LanguageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/simon/service/german/GermanPortugueseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/simon/service/german/PortugueseGermanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/library/coffe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/library/family.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/simon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/simon/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/simon/entity/German.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/simon/entity/German.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/simon/repository/GermanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/simon/repository/GermanRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/simon/service/GermanService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/simon/service/JsonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/simon/service/JsonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/library/numbers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/library/numbers.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -113,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743075134879</updated>
-      <workItem from="1743075136183" duration="859000" />
+      <workItem from="1743075136183" duration="4233000" />
     </task>
     <servers />
   </component>
