@@ -1,12 +1,8 @@
 package org.simon.service;
 
-import org.json.simple.JSONObject;
-import org.simon.entity.German;
 import org.simon.entity.Language;
 import org.simon.repository.GermanRepository;
-
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Random;
 
 public abstract class LanguageService {
@@ -43,7 +39,11 @@ public abstract class LanguageService {
         return g;
     }
 
-    public boolean testeResposta(String resposta, Language l){
-        return l.getTrasnlation().equals(resposta);
+    public boolean testeResposta(String resposta, Language l, int tipo){
+        return switch (tipo) {
+            case 1 -> l.getTrasnlation().equalsIgnoreCase(resposta);
+            case 2 -> l.getOriginal().equalsIgnoreCase(resposta);
+            default -> false;
+        };
     }
 }

@@ -1,3 +1,25 @@
 {
-  "words" : []
+  "words" : [
+    {"portugues" : "Eu", "alemao" : "Ich"},
+    {"portugues" : "Tu", "alemao" : "Du"},
+    {"portugues" : "Ele", "alemao" : "Er"},
+    {"portugues" : "Ela", "alemao" : "Es"},
+    {"portugues" : "Nos", "alemao" : "Wir"},
+    {"portugues" : "Vos", "alemao" : "Ihr"},
+    {"portugues" : "E", "alemao" : "Und"},
+    {"portugues" : "Ou", "alemao" : "Oder"},
+    {"portugues" : "Oi", "alemao" : "Hallo"},
+    {"portugues" : "Boa manha", "alemao" : "Guten Morgen"},
+    {"portugues" : "Bom dia", "alemao" : "Guten Tag!"},
+    {"portugues" : "Boa tarde", "alemao" : "Guten Abend!"},
+    {"portugues" : "Tchau", "alemao" : "Tschuss"},
+    {"portugues" : "Por favor", "alemao" : "Bitte"},
+    {"portugues" : "Obrigado", "alemao" : "Danke"},
+    {"portugues" : "Comida", "alemao" : "Essen"},
+    {"portugues" : "Cafe", "alemao" : "Kaffee"},
+    {"portugues" : "Leite", "alemao" : "Milch"},
+    {"portugues" : "Pao", "alemao" : "Brot"},
+    {"portugues" : "Agua", "alemao" : "Wasser"},
+    {"portugues" : "Coco", "alemao" : "Kokosnusse"}
+  ]
 }

@@ -6,18 +6,15 @@ import org.simon.repository.GermanRepository;
 import org.json.simple.JSONObject;
 import org.simon.service.JsonService;
 import org.simon.service.LanguageService;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import java.util.Random;
-
-public class GermanPortugueseService extends LanguageService {
+public class GermanService extends LanguageService {
     GermanRepository germanRepository = new GermanRepository();
     JsonService jsonService = new JsonService();
     German ultimoRandom;
 
-    public GermanPortugueseService() {
+    public GermanService() {
         this.ultimoRandom = null;
     }
 

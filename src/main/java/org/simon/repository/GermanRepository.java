@@ -2,7 +2,6 @@ package org.simon.repository;
 
 import org.simon.entity.German;
 import org.simon.entity.Language;
-
 import java.util.ArrayList;
 
 public class GermanRepository {
